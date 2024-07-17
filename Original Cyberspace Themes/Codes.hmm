@@ -1,0 +1,36 @@
+Patch "HMM Code Check"
+//
+    #lib "HMM"
+    using System.Windows.Forms;
+    #load "System.Windows.Forms.dll"
+//
+{
+    if (HMM.GetCodes().Contains("Graphics/Quality/Force Light Scattering")) {
+        MessageBox.Show("Disable the code \"Graphics/Quality/Force Light Scattering\" for stage atmospheres to work properly.", "Code Conflict", MessageBoxButtons.OK);
+        System.Environment.Exit(0);
+    }
+}
+
+Patch "No glow effects in silhouette stages" by "angryzor"
+//
+    #lib "Resources"
+    #lib "Services"
+
+    using System.Collections.Generic;
+
+    public static List<string> stages = new List<string>() { "w6d09", "w7d07", "w8d04" };
+    public static Dictionary<string, string> replacements = new Dictionary<string, string>() {
+        ["ef_pl_grind01"] = "",
+        ["ef_pl_grind01_bd"] = "",
+        ["ef_ob_ring_get01"] = "",
+        ["ef_ob_ring_get01_bd"] = "",
+        ["ef_pl_grind_land01"] = "",
+        ["ef_pl_grind_land01_bd"] = ""
+    };
+
+    public string ReplaceEffects(string resourceName, string resourceType) {
+        return stages.Contains(Services.LevelInfo.GetCurrentStageID()) && replacements.ContainsKey(resourceName) ? replacements[resourceName] : resourceName;
+    }
+//
+Resources.AddResourceNotifyAction(ReplaceEffects);
+
