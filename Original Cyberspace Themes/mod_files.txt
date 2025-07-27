@@ -1,3 +1,14 @@
-add Codes.hmm
-delete NoGrindCEMT.hmm
+remove Codes.hmm
+remove mod.ini
 add mod.ini
+add Codes.hmm
+add config.json
+delete raw\stage
+delete raw\gedit
+delete raw\ui
+add main\raw\gedit
+add main\raw\stage
+add v1_all
+add v1_w6d03
+add v1_w8d01
+add v2_all
