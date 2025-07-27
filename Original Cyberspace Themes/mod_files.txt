@@ -1,4 +1,3 @@
-remove mod.ini
 remove v1_all/raw/script
 remove v1_w6d03/raw/script
 remove v1_w8d01/raw/script
