@@ -1,8 +1,3 @@
-remove v1_all/raw/script
-remove v1_w6d03/raw/script
-remove v1_w8d01/raw/script
-remove v2_all/raw/script
-
 add v1_all/raw/script
 add v1_w6d03/raw/script
 add v1_w8d01/raw/script
