@@ -1,0 +1,62 @@
+{
+	"Groups": [
+	   {
+		  "Name": "main",
+		  "DisplayName": "Lighting Config",
+		  "Elements": [
+  
+			 {
+				"Name": "IncludeDir1",
+				"DisplayName": "Stage Lighting",
+				"Description": [
+				   "Configure whether to use v1 or v2 lighting for 1-2 and 2-6"
+				],
+				"Type": "LightingEnum",
+				"MinValue": null,
+				"MaxValue": null,
+				"DefaultValue": "Default (Both V2)"
+			 }
+		  ]
+	   }
+	],
+	
+	"Enums": {
+ 
+	   "LightingEnum": 
+	   [
+ 
+		  {
+			 "DisplayName": "Default (Both V2)",
+			 "Value": "v2_all",
+			 "Description": [
+				"Uses V2 lighting for both 1-2 (dawn) and 2-6 (sky)."
+			 ]
+		  },
+ 
+		  {
+			 "DisplayName": "1-2 V1",
+			 "Value": "v1_w8d01",
+			 "Description": [
+				"Uses V1 lighting for 1-2 only (night)."
+			 ]
+		  },
+
+		  {
+			"DisplayName": "2-6 V1",
+			"Value": "v1_w6d03",
+			"Description": [
+			   "Uses V1 lighting for 2-6 only (space)."
+			]
+		  },
+
+		  {
+			"DisplayName": "Both V1",
+			"Value": "v1_all",
+			"Description": [
+			   "Uses V1 lighting for both 1-2 (night) and 2-6 (space)."
+			]
+		  }
+	   ]
+	},
+	"IniFile": "mod.ini"
+ }
