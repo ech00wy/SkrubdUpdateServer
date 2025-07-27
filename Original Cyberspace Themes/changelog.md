@@ -5,6 +5,7 @@
 - Amended Arcade Mode UI to reflect stage changes.
 - Fixed the silhouette stage lighting bug. They will now work in Cyber Space Challenge and the Open Zone Campaign.
 - Config for 1-2 and 2-6 added to change between V1 and V2 lighting options.
+- Added SXSG style jump ramps and dash panels.
 
 ## Original Cyberspace Themes V1.1
 - Added popup to warn players to disable the 'Force Light Scattering' code
