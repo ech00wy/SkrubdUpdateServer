@@ -1,3 +1,6 @@
+## Original Cyberspace Themes V2.0.1
+- Fixed Earth positioning in 4-I.
+
 ## Original Cyberspace Themes V2
 [PLEASE REDOWNLOAD THE UPDATE VIA THE MAIN MOD PAGE AS THERE IS A REFACTORING OF THE FOLDER LAYOUT]
 - Removed one of the codes that caused crashing.
