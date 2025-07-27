@@ -2,5 +2,4 @@ add v1_all/raw/script
 add v1_w6d03/raw/script
 add v1_w8d01/raw/script
 add v2_all/raw/script
-
 add mod.ini
