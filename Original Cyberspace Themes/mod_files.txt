@@ -1,14 +1,59 @@
 remove Codes.hmm
 remove mod.ini
-add mod.ini
-add Codes.hmm
-add config.json
 delete raw\stage
 delete raw\gedit
 delete raw\ui
+
 add main\raw\gedit
-add main\raw\stage
-add v1_all
-add v1_w6d03
-add v1_w8d01
-add v2_all
+add main\raw\stage\CyberObject.pac
+add main\raw\stage\develop\w7z10\w7z10_misc.pac
+add main\raw\stage\develop\w7z10\w7z10_trr_cmn.pac
+add main\raw\stage\develop\w7z10\w7z10_trr_s00.pac
+add main\raw\stage\develop\w9z08\w9z08_misc.pac
+add main\raw\stage\develop\w9z08\w9z08_trr_cmn.pac
+add main\raw\stage\develop\w9z08\w9z08_density.pac
+add main\raw\stage\develop\w9z08\w9z08_trr_s00.pac
+
+add main\raw\stage\w6d01\w6d01_misc.pac
+add main\raw\stage\w6d01\w6d02_obj.pac
+add main\raw\stage\w6d01\w8d01_misc.pac
+add main\raw\stage\w6d01\w6d06_misc.pac
+add main\raw\stage\w6d01\w9d06_misc.pac
+add main\raw\stage\w6d01\w8d03_misc.pac
+add main\raw\stage\w6d01\w8d03_trr_s00.pac
+add main\raw\stage\w6d01\w8d04_misc.pac
+add main\raw\stage\w6d01\w6d09_misc.pac
+add main\raw\stage\w6d01\w7d01_misc.pac
+add main\raw\stage\w6d01\w7d07_misc.pac
+add main\raw\stage\w6d01\w9d05_misc.pac
+add main\raw\stage\w6d01\w6d21_misc.pac
+add main\raw\stage\w6d01\w6d22_misc.pac
+add main\raw\stage\w6d01\w6d23_misc.pac
+add main\raw\stage\w6d01\w7d21_misc.pac
+add main\raw\stage\w6d01\w7d23_misc.pac
+add main\raw\stage\w6d01\w9d22_misc.pac
+add main\raw\stage\w6d01\w9d23_misc.pac
+add main\raw\gedit\w6d21_gedit.pac
+add main\raw\gedit\w9d21_gedit.pac
+add main\raw\gedit\w7d21_gedit.pac
+add main\raw\gedit\w6d23_gedit.pac
+
+add v2_all\raw\script\script_resident.pac
+add v2_all\raw\stage\w6d03_trr_s00.pac
+add v2_all\raw\ui\rpl_texture_arcade.pac
+
+add v1_w8d01\raw\script\script_resident.pac
+add v1_w8d01\raw\stage\w6d03_trr_s00.pac
+add v1_w8d01\raw\ui\rpl_texture_arcade.pac
+
+add v1_w6d03\raw\script\script_resident.pac
+add v1_w6d03\raw\stage\w6d03_trr_s00.pac
+add v1_w6d03\raw\ui\rpl_texture_arcade.pac
+
+add v1_all\raw\script\script_resident.pac
+add v1_all\raw\stage\w6d03_trr_s00.pac
+add v1_all\raw\ui\rpl_texture_arcade.pac
+
+add Codes.hmm
+add config.json
+add mod.ini
